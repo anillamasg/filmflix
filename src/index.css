@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#search-movies {
+  padding: 0;
+}
+
+.search-textfield > div {
+  color: white;
+  background-color: transparent !important;
+}
+
+.search-textfield > div::before {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.42) !important;
+}
+
+.flex-column-center-mx4 {
+  margin-left: 32px;
+  margin-right: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex-center-none {
+  display: flex;
+  align-items: center;
+  box-shadow: none !important;
+}
