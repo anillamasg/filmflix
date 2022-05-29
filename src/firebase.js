@@ -4,12 +4,12 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
-  authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
-  projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
-  storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
-  appId: process.env.REACT_APP_FIREBASE_APP_ID,
+  apiKey: "AIzaSyDugK8GRG0__Akhn-bntmlViR8V5tGwpzc",
+  authDomain: "filmflix-7f4bb.firebaseapp.com",
+  projectId: "filmflix-7f4bb",
+  storageBucket: "filmflix-7f4bb.appspot.com",
+  messagingSenderId: "420985875775",
+  appId: "1:420985875775:web:a7938c6c19336ce30fb78a"
 };
 
 const app = initializeApp(firebaseConfig);
